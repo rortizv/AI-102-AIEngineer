@@ -37,3 +37,14 @@ def GetLanguage(text):
 
 if __name__ == "__main__":
     main()
+
+
+# The response looks like:
+
+# Enter some text ("quit" to stop)
+# buenas tardes
+# Language: Spanish
+
+# Enter some text ("quit" to stop)
+# io no sono
+# Language: Italian
