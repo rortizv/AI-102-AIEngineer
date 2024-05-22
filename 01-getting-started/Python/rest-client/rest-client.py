@@ -78,3 +78,36 @@ def GetLanguage(text):
 
 if __name__ == "__main__":
     main()
+
+
+
+# Ejemplo de respuesta en consola:
+#
+#
+# Enter some text ("quit" to stop)
+# muchas gracias
+# {
+#   "documents": [
+#     {
+#       "id": 1,
+#       "text": "muchas gracias"
+#     }
+#   ]
+# }
+# {
+#   "documents": [
+#     {
+#       "id": "1",
+#       "detectedLanguage": {
+#         "name": "Spanish",
+#         "iso6391Name": "es",
+#         "confidenceScore": 1.0
+#       },
+#       "warnings": []
+#     }
+#   ],
+#   "errors": [],
+#   "modelVersion": "2024-04-01"
+# }
+
+# Language: Spanish
