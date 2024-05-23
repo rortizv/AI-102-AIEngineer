@@ -32,6 +32,8 @@ def main():
 
 
             # Get sentiment
+            sentimentAnalysis = cog_client.analyze_sentiment(documents=[text])[0]
+            print("\nSentiment: {}".format(sentimentAnalysis.sentiment))
 
 
             # Get key phrases
