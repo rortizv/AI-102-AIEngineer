@@ -37,6 +37,11 @@ def main():
 
 
             # Get key phrases
+            phrases = cog_client.extract_key_phrases(documents=[text])[0].key_phrases
+            if len(phrases) > 0:
+                print("\nKey Phrases:")
+                for phrase in phrases:
+                    print('\t{}'.format(phrase))
 
 
             # Get entities
